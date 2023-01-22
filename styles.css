@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(0, 0, 0, 0.754);
+    margin: 0;
+    text-align: center;
+}
+
+button{
+    background-color: #ff7d00;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 4px 1px 3px;
+    margin: auto;
+}
+
+.game-over{
+    background-color: red;
+    opacity: 0.5;
+}
+
+header{
+    font-size: 3rem;
+    color: #ff7d00;
+    text-shadow: 8px 4px 3px black;
+    margin-bottom: -36px;
+}
+
+.container1,.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block{
+    border: 12px solid;
+    width: 138px;
+    height: 124px;
+    border-radius: 34px;
+    margin: 1%;
+}
+ .green{
+    background-color: green;
+ }
+
+ .red{
+    background-color: red;
+ }
+
+ .yellow{
+    background-color: yellow;
+ }
+
+ .blue{
+    background-color: blue;
+ }
+
+ .pressed{
+    box-shadow: -1px 0px 25px white;
+ }
